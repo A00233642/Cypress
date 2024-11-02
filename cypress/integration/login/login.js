@@ -39,6 +39,10 @@ When ('I type username and password', function(){ // Verify user can login with 
 
 });
 
+
+
+
+
 /*When ('I type username and password', function(){ // Verify user can login with invalid credentials
   cy.get('input[id="loginusername"]').type(this.data.Username); // to use variable that was crerated in exxample.json
   cy.wait(2000); 
